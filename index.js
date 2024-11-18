@@ -17,7 +17,7 @@ const formattedDate = `${day}-${month}-${year}`;
 
 currentDateParagraph.textContent = formattedDate;
 
-const exampleSentence = "selur pmaCedoCeerf".split("").reverse();
+const exampleSentence = "selur pmaCedoCeerf".split("").reverse().join();
 console.log(exampleSentence);
 
 dateOptionsSelectElement.addEventListener("change", () => {});
