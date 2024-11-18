@@ -25,6 +25,7 @@ switch (dateOptionsSelectElement.value) {
       .split("-")
       .reverse()
       .join("-");
+    break;
 }
 
 // console.log(formattedDate);
