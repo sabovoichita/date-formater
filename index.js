@@ -13,6 +13,8 @@ const hours = date.getHours();
 
 const minutes = date.getMinutes();
 
+const formattedDate = ``;
+
 // console.log(
 //   currentDateParagraph,
 //   dateOptionsSelectElement,
@@ -20,5 +22,6 @@ const minutes = date.getMinutes();
 //   day,
 //   month,
 //   year,
-//   hours
+//   hours,
+//   minutes
 // );
