@@ -15,14 +15,4 @@ const minutes = date.getMinutes();
 
 const formattedDate = `${day}-${month}-${year}`;
 
-console.log(
-  currentDateParagraph,
-  dateOptionsSelectElement,
-  date,
-  day,
-  month,
-  year,
-  hours,
-  minutes,
-  formattedDate
-);
+console.log(formattedDate);
