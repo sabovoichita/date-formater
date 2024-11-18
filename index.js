@@ -27,7 +27,7 @@ switch (dateOptionsSelectElement.value) {
       .join("-");
     break;
   case "ww-dd-yyyy-h-mm":
-    currentDateParagraph.textContent = ``;
+    currentDateParagraph.textContent = `${month}-${day}-${year} ${hours} Hours ${minutes} Minutes`;
     break;
 }
 
