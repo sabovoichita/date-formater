@@ -2,4 +2,6 @@ const currentDateParagraph = document.getElementById("current-date");
 const dateOptionsSelectElement = document.getElementById("date-options");
 
 const date = new Date();
-// console.log(currentDateParagraph, dateOptionsSelectElement, date);
+
+const day = date.getDate();
+// console.log(currentDateParagraph, dateOptionsSelectElement, date, day);
