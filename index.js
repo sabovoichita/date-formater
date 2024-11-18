@@ -9,11 +9,14 @@ const month = date.getMonth() + 1;
 
 const year = date.getFullYear();
 
+const hours = date.getHours();
+
 // console.log(
 //   currentDateParagraph,
 //   dateOptionsSelectElement,
 //   date,
 //   day,
 //   month,
-//   year
+//   year,
+//   hours
 // );
