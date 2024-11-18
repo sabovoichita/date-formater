@@ -26,6 +26,9 @@ switch (dateOptionsSelectElement.value) {
       .reverse()
       .join("-");
     break;
+  case "ww-dd-yyyy-h-mm":
+    currentDateParagraph.textContent = ``;
+    break;
 }
 
 // console.log(formattedDate);
