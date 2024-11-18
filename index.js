@@ -7,4 +7,13 @@ const day = date.getDate();
 
 const month = date.getMonth() + 1;
 
-// console.log(currentDateParagraph, dateOptionsSelectElement, date, day, month);
+const year = date.getFullYear();
+
+// console.log(
+//   currentDateParagraph,
+//   dateOptionsSelectElement,
+//   date,
+//   day,
+//   month,
+//   year
+// );
