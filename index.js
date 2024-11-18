@@ -13,16 +13,16 @@ const hours = date.getHours();
 
 const minutes = date.getMinutes();
 
-const formattedDate = `${day}`;
+const formattedDate = `${day}-${month}`;
 
-// console.log(
-//   currentDateParagraph,
-//   dateOptionsSelectElement,
-//   date,
-//   day,
-//   month,
-//   year,
-//   hours,
-//   minutes,
-//   formattedDate
-// );
+console.log(
+  currentDateParagraph,
+  dateOptionsSelectElement,
+  date,
+  day,
+  month,
+  year,
+  hours,
+  minutes,
+  formattedDate
+);
